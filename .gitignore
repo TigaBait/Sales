@@ -1,0 +1,53 @@
+# WordPress core files and directories
+wp-admin/
+wp-includes/
+wp-content/index.php
+wp-content/languages
+wp-content/plugins/index.php
+wp-content/themes/index.php
+wp-content/upgrade/
+wp-content/uploads/
+
+# Configuration files that may contain sensitive information
+wp-config.php
+.htaccess
+
+# Log files
+*.log
+error_log
+access_log
+
+# Cache files
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/backups/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local development files
+local-config.php
+database.sql
+*.sql
+*.tar.gz
+*.zip
+
+# IDE and editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
